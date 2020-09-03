@@ -47,6 +47,7 @@ public class MainViewController implements Initializable {
 	public void initialize(URL uri, ResourceBundle rb) {
 	}
 	
+	//Método para carregar o conteúdo de quem o chama dentro da tela principal
 	private synchronized void loadView(String absoluteName) {
 		try{
 			FXMLLoader loader = new FXMLLoader(getClass().getResource(absoluteName));
